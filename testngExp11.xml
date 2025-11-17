@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<!--<listener class-name="testNG.TestNGListnerExp1"></listener>-->
+		<listener class-name="testNG.RetryListener"></listener>
+	</listeners>
+  <test thread-count="5" name="sanity">
+    <classes>
+    	<class name="testNG.TestNGExp12_retry"/>
+      <!--<class name="testNG.TestNGExp11"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
