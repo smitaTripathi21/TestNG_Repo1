@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Sanity">
     <classes>
-      <class name="testNG.ExtentReportExp1"/>
+      <class name="extentReportExp4.NewTest"/>
     </classes>
   </test> <!-- Test -->  
 </suite> <!-- Suite -->
